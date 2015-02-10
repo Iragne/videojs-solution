@@ -1,0 +1,19 @@
+{
+  "name": "videojs-solution",
+  "version": "0.4.2",
+  "license": "MIT",
+  "author": {
+    "name": "Jean-Alexandre Iragne",
+    "email": "adelskott@gmail.com"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "videojs-ga": "git+https://github.com/Iragne/videojs-ga.git#master",
+    "videojs-youtube": "git+https://github.com/Iragne/videojs-youtube.git#master"
+  },
+   "scripts" :{ 
+      "install" : "cd node_modules/videojs-youtube && npm install && bower install"
+  }
+}
